@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: arial, helvetica;
+    background-color: #051721;
+    background: url(background3.jpg) no-repeat center top;
+    background-size: 100%;
+  }
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #ECF0F1;
+}
+
+.logo{
+    width: 69px;
+    height: 69px;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.logo img{
+    width: 70px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.menu{
+	list-style: none;
+	width: 90%;
+	max-width: 400px;
+	margin: auto;
+    height: 50px;
+    margin-right: 150px;
+    padding-top: 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #051721;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+    display: inline-block;
+	text-align: right;
+    margin-top: 0px;
+}
+.menu li a:hover{
+    padding-top: 4px;
+    color: #ECF0F1;
+	background: #051721;
+    height: 25px;
+}
+
+section{
+    text-align: left;
+    margin-top: 50px;
+    display: block;
+}
+.contenedor_libro1{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid #0B5345 10px;
+    padding: 40px 5px 5px 0px;   
+}
+
+.contenedor_libro1:hover{
+    border: solid #051721 10px;
+}
+
+.contenedor_libro1 h1{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+#contenedor_libro1 h2{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+#contenedor_libro1 h5{
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.contenedor_libro1 button{
+    background-color: #0B5345;
+    border-color: #0B5345;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contenedor_libro1 div p{
+    text-align: right;
+    margin: 15px 7px 10px 7px;
+    font-size: 15px;
+}
+
+#contenedor_libro1 div img{
+    width: 50px;
+    float: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+img{
+    width: 100px;
+}
+
+
+.segunda_caja{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.segunda_caja .contenedor_libros{
+    width: 100%;
+    background-color: #ECF0F1;
+    margin-left: 10%;
+}
+
+.titulo{
+    margin: 20px 20px 20px 50px;
+}
+.titulo h1{
+    color: #ECF0F1;
+}

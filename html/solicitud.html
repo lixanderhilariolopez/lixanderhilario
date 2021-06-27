@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen"  href="css/sregistro.css">
+    <script src="script.js"></script> <script src="libros.js"></script>
+    <title>Biblioteca Virtual DISAB</title>
+</head>
+<header>
+    <div class="logo"> 
+        <a href="index.html">
+        <img src="img/emma.jpg">
+    </a>
+    </div>
+   <ul class="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="solicitud.html">Registro</a></li>
+       <li><a href="catálogo.html">Catálogo</a></li>
+   </ul>
+</header>
+
+<div class="titulo">
+  <h1>SOLICITUD DE LIBROS</h1>
+</div>
+
+<section class="Form-registrar">
+          <a href="solicitud.html"><button class="botons1">Solicitud</button></a>
+          <a href="devolucion.html"><button class="botons1">Devolucion</button></a>
+          <h4 class="titulo">Informacion del Estudiante</h4><form class="formulario" id="formulario">
+     <form action="gracias.html">
+           <input Class="control" type="text" name="Estudiante" id="nombre" placeholder="Nombre del estudiante" required>  
+           <input Class="control" type="text" name="Curso" id="curso" placeholder="Curso">
+           <input Class="control" type="number" name="Numero" id="numero" placeholder="Numero De Registro" required>      
+     <h4 class="titulo">Informacion Del Libro</h4>
+     <label for="" class="formulario__label"><span style="color: gray;" ><strong>INGRESE EL CODIGO DEL LIBRO:</strong></span></label>
+     <select name="Código" id="codigo" required>
+         <option>Seleciona un codigo</option>
+         <option>CADS</option>
+         <option>ECNTQLE</option>
+         <option>HP</option>
+         <option>ERDG</option>
+         <option>DQM</option>
+         <option>EP</option>
+         <option>EMMDO</option>
+         <option>LTH</option>
+       </select> 
+          <input Class="control" type="text" name="Titulo" id="titulo" placeholder="Titulo" required>
+          <input Class="control" type="text" name="Autor" id="autor" placeholder="Autor" required>
+          <input Class="control" type="email" name="Estante" id="estante" placeholder="Estante" required>
+          <input Class="control" type="date" name="Despacho" id="solicitud" placeholder="Fecha De Solicitud" required>
+          <input class="control" type="date"name="Entrega" id="entrega" placeholder="Fecha De Entrega">
+          <input class="botons3" type="submit" value="Enviar">
+        </form>
+          <input class="botons4" type="reset" value="Borrar" onclick="Limpiar()">
+          <script src="solicitud.js"></script>
+    </section>    
+  </body>
+</html>

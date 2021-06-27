@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial, helvetica;
+    background-color: #051721;
+    background: url(background3.jpg) no-repeat center top;
+    background-size: 100%;
+  }
+
+  header{
+    width: 100%;
+    height: 80px;
+    background-color: #ECF0F1;
+}
+
+.logo{
+    width: 69px;
+    height: 69px;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+.logo img{
+    width: 70px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.menu{
+	list-style: none;
+	width: 90%;
+	max-width: 400px;
+	margin: auto;
+    height: 50px;
+    margin-right: 150px;
+    padding-top: 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #051721;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+    display: inline-block;
+	text-align: right;
+    margin-top: 0px;
+}
+.menu li a:hover{
+    padding-top: 4px;
+    color: #ECF0F1;
+	background: #051721;
+    height: 25px;
+}
+
+.formulario label {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.formulario__label{
+    display: block;
+    width: 100%;
+}
+
+.Form-registrar{
+    width: 400px;
+    height: 700px;
+    background: #ECF0F1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'calibri';
+}
+
+.Form-registrar h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 100%;
+    background: #f7eeee;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #051721;
+    font-family: 'calibri';
+}
+
+.form-registrar p{
+    height: 40;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.form-registrar a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.botons1{
+    background-color: #0B5345;
+    border-color: #0B5345;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}  
+
+
+.botons2{
+    background-color: #0B5345;
+    border-color: #0B5345;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.botons3{
+    background-color: #0B5345;
+    border-color: #0B5345;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    margin: 10px 0px 10px 30px;
+
+    float: left;
+}
+
+.botons4{
+    background-color: #0B5345;
+    border-color: #0B5345;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    margin: 10px 30px 10px 0px;
+    float: right;
+}
+
+.titulo{
+    margin: 20px 20px 20px 50px;
+}
+.titulo h1{
+    color: #ECF0F1;
+}
